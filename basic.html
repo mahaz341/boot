@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML</title>
+</head>
+
+<body>
+    
+    <table>
+        <style>
+            table,
+            th,
+            td {
+                border: 1px solid black;
+                border-radius: 10px;
+            }
+        </style>
+        <caption> <h3>The Details of Students</h3></caption>
+        <tr>
+            <th> Name </th>
+            <th> Class </th>
+            <th> Section </th>
+            <th> Id no. </th>
+        </tr>
+        <tr>
+            <td> Maaz </td>
+            <td> BSCS </td>
+            <td> 6A </td>
+            <td> 331 </td>
+        </tr>
+        <tr>
+            <td> Ali </td>
+            <td> BSCS </td>
+            <td> 6A </td>
+            <td> 315 </td>
+        </tr>
+        <tr>
+            <td> Awais </td>
+            <td> BSCS </td>
+            <td> 6A </td>
+            <td> 339 </td>
+        </tr>
+        <tr>
+            <td> Muzzamil </td>
+            <td> BSCS </td>
+            <td> 6A </td>
+            <td> 332 </td>
+        </tr>
+    </table>
+    <br>
+    <div>
+        <h1>Registration Form</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter Your Name"><br>
+            <h3>Select Your Section </h3><br>
+            <label for="sectionida">
+                <input type="radio" value="section a" name="section" id="sctionida"> Section A
+            </label>
+            <label for="sectionidb">
+                <input type="radio" value="section b" name="section" id="sctionidb"> Section b
+            </label>
+            <label for="sectionidc">  
+                <input type="radio" value="section c" name="section" id="sctionidc"> Section c
+            </label> <br>
+            <input type="checkbox" id="foodcanteen" name="canteen" class="mz">
+<label for="foodcanteen">  Are You Ready <br>
+    <input type="text" placeholder=" if you ready then tell us"> 
+</label>
+        </form>
+    </div>
+    <div class="nav nav-bar"> 
+        <ul class="nav-tab">
+            <li class="nav-item"> 
+                <button class="btn" data-bs-toggle="tag" data-bs-target="#"> Log In</button>
+            </li>
+
+        </ul>
+    </div>
+    <div class="nav nav-bar">
+        <ul class="nav-tab">
+            <li class="nav-item">
+                <button class="btn" data-bs-toggle="tag" data-bs-target="#"> Sign up
+                </button>
+
+            </li>
+
+        </ul>
+    </div>
+</body>
+
+</html>
